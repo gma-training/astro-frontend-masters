@@ -14,4 +14,8 @@ export default defineConfig({
 			include: ['**/cart*'],
 		}),
 	],
+	output: 'hybrid',
+	experimental: {
+		hybridOutput: true
+	}
 });
